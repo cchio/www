@@ -185,6 +185,28 @@ img {
 }
 
 /* ################################################################
+    ERROR WRAP
+################################################################# */
+
+#errorwrap {
+    height: 100vh;
+    padding: 50px 0 100px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#errorwrap p {
+    color: black;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ################################################################
     PUBLIC WRAP
 ################################################################# */
 #publicwrap iframe {
