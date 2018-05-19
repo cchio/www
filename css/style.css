@@ -180,7 +180,7 @@ img {
     line-height: 30px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
 }
 
@@ -209,16 +209,41 @@ img {
 /* ################################################################
     PUBLIC WRAP
 ################################################################# */
-#publicwrap iframe {
-    width: 100%;
-    max-width: 720px;
-    height: calc(100vh - 170px);
-    height: -o-calc(100vh - 170px); /* opera */
-    height: -webkit-calc(100vh - 170px); /* google, safari */
-    height: -moz-calc(100vh - 170px); /* firefox */
-    margin: 70px auto 100px;
-    overflow: hidden;
-    display: block;
+
+#publicwrap {
+    height: 100vh;
+    padding: 50px 0 100px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#publicwrap h1 {
+    color: black;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: left;
+}
+
+#publicwrap p,ul,li {
+    color: black;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+#publicwrap ul>li>ul>li {
+    margin-left: 30px;
+}
+
+#publicwrap b {
+    font-weight: 400;
 }
 
 /* ################################################################
@@ -332,7 +357,7 @@ img {
 .my-electronic-mail:before {
     content: "\006d \0061 \0069 \006c \0040 \0063";
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
@@ -340,7 +365,7 @@ img {
 .my-electronic-mail:after {
     content: "\0063 \0068 \0069 \006f \002e \006f \0072 \0067";
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
