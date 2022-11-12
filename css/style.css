@@ -192,6 +192,14 @@ img {
   text-align: left;
 }
 
+span#buidl::before {
+  content: "building";
+}
+
+span#buidl:hover::before {
+  content: "buidling";
+}
+
 /* ################################################################
     ERROR WRAP
     ################################################################# */
